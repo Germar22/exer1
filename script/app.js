@@ -6,4 +6,4 @@ function displayDif() {
   document.getElementById("answer").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ;
 }
 
-document.getElementById('sumButton').addEventListener("click", displayDif);
+document.getElementById('DifButton').addEventListener("click", displayDif);
