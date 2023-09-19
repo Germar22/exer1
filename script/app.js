@@ -13,7 +13,7 @@ function displaydif() {
    let secondNum = Number(document.getElementById('secondNum').innerHTML) 
   
    let total = firstNum - secondNum; 
-   document.getElementById("answer2").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ; 
+   document.getElementById("answer").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ; 
  } 
   
  document.getElementById('difButton').addEventListener("click", displaydif);
@@ -23,7 +23,7 @@ function displayprd() {
    let secondNum = Number(document.getElementById('secondNum').innerHTML) 
  
    let total = firstNum * secondNum; 
-   document.getElementById("answer3").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${total}` ; 
+   document.getElementById("answer").innerHTML = ` ${firstNum} * ${secondNum}, equals to ${total}` ; 
 } 
  
 document.getElementById('prdButton').addEventListener("click", displayprd);
@@ -33,7 +33,7 @@ function displayquo() {
   let secondNum = Number(document.getElementById('secondNum').innerHTML) 
 
   let total = firstNum / secondNum; 
-  document.getElementById("answer4").innerHTML = ` ${firstNum} / ${secondNum}, equals to ${total}` ; 
+  document.getElementById("answer").innerHTML = ` ${firstNum} / ${secondNum}, equals to ${total}` ; 
 } 
 
 document.getElementById('quoButton').addEventListener("click", displayquo);
